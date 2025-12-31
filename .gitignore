@@ -1,37 +1,91 @@
-# System files
+# macOS
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.bak
+*~
 
 # IDE files
-.idea/
 .vscode/
-*.swp
-*.swo
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-# Dependencies
+# Node (if using for PDF generation)
 node_modules/
-vendor/
+npm-debug.log*
+package-lock.json
 
-# Environment files
-.env
+# Python (if using any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Personal/Sensitive
+personal/
+private/
+sensitive/
+*.env
 .env.local
-.env.*.local
+config.local.js
+secrets/
+
+# Backup files
+backup/
+*.backup
+*.old
+github-toirem-temp/
+
+# Generated files (optional - remove if you want PDFs in repo)
+# *.pdf
+
+# Office temp files
+~$*
+*.xlk
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
 
 # Logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build outputs
-/dist
-/build
-/out
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Temporary files
-*.tmp
-*.temp
-.cache/
-
-# Claude/AI files
-.claude/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
