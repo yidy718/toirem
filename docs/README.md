@@ -3,10 +3,10 @@
 > Complete operational framework for CRA-compliant charity assistance programs
 
 <div class="quick-links">
-  <a href="#/TIER_4_OPERATIONS/Application_Form_Trilingual">Application Forms</a>
-  <a href="#/TIER_3_EVIDENCE/MASTER_CALCULATIONS_WITH_SOURCES_2025">Calculations</a>
-  <a href="#/TIER_2_POLICY/Executive_Summary_Two_Tier_System">Two-Tier System</a>
-  <a href="#/TIER_4_OPERATIONS/Quick_Reference_Guide_Simplified_Process">Quick Reference</a>
+  <a href="TIER_4_OPERATIONS/Application_Form_Trilingual">Application Forms</a>
+  <a href="TIER_3_EVIDENCE/MASTER_CALCULATIONS_WITH_SOURCES_2025">Calculations</a>
+  <a href="TIER_2_POLICY/Executive_Summary_Two_Tier_System">Two-Tier System</a>
+  <a href="TIER_4_OPERATIONS/Quick_Reference_Guide_Simplified_Process">Quick Reference</a>
 </div>
 
 ## 📊 Key Numbers at a Glance
@@ -80,19 +80,19 @@
 ## 📝 Quick Access Documents
 
 ### For Applicants
-- [Application Form (Trilingual)](/TIER_4_OPERATIONS/Application_Form_Trilingual.md) - English, French, Yiddish
-- [Declaration of Need Text](/TIER_4_OPERATIONS/Declaration_of_Need_Text.md)
-- [Assessment Worksheet](/TIER_4_OPERATIONS/Assessment_Worksheet_Two_Tier_System.md)
+- [Application Form (Trilingual)](TIER_4_OPERATIONS/Application_Form_Trilingual.md) - English, French, Yiddish
+- [Declaration of Need Text](TIER_4_OPERATIONS/Declaration_of_Need_Text.md)
+- [Assessment Worksheet](TIER_4_OPERATIONS/Assessment_Worksheet_Two_Tier_System.md)
 
 ### For Board Members
-- [Board Resolution](/TIER_1_GOVERNANCE/Board_Resolution_Eligibility_Framework_2025.md)
-- [CRA Compliance Guide](/TIER_1_GOVERNANCE/CRA_Compliance_Comparison.md)
-- [Monthly Report Template](/TIER_5_TRACKING/Monthly_Board_Report_Template.md)
+- [Board Resolution](TIER_1_GOVERNANCE/Board_Resolution_Eligibility_Framework_2025.md)
+- [CRA Compliance Guide](TIER_1_GOVERNANCE/CRA_Compliance_Comparison.md)
+- [Monthly Report Template](TIER_5_TRACKING/Monthly_Board_Report_Template.md)
 
 ### For Staff
-- [Processing Flowchart](/TIER_4_OPERATIONS/Processing_Flowchart.md)
-- [Quick Reference Guide](/TIER_4_OPERATIONS/Quick_Reference_Guide_Simplified_Process.md)
-- [Audit Checklist](/TIER_5_TRACKING/Audit_Checklist.md)
+- [Processing Flowchart](TIER_4_OPERATIONS/Processing_Flowchart.md)
+- [Quick Reference Guide](TIER_4_OPERATIONS/Quick_Reference_Guide_Simplified_Process.md)
+- [Audit Checklist](TIER_5_TRACKING/Audit_Checklist.md)
 
 ## 🔍 Search Tips
 
@@ -105,22 +105,22 @@ Use the search bar above to find:
 
 ## 📂 Complete Framework Structure
 
-### [Tier 1: Governance](/TIER_1_GOVERNANCE/)
+### Tier 1: Governance
 Core policies, board resolutions, and authority documentation
 
-### [Tier 2: Policy Framework](/TIER_2_POLICY/)
+### Tier 2: Policy Framework
 CRA legal framework, implementation roadmap, and justifications
 
-### [Tier 3: Evidence & Research](/TIER_3_EVIDENCE/)
+### Tier 3: Evidence & Research
 Cost analysis, calculations, and supporting research
 
-### [Tier 4: Operations](/TIER_4_OPERATIONS/)
+### Tier 4: Operations
 Forms, workflows, and processing guides
 
-### [Tier 5: Tracking & Reporting](/TIER_5_TRACKING/)
+### Tier 5: Tracking & Reporting
 Audit tools, database templates, and reporting forms
 
-### [Tier 6: Resources](/TIER_6_RESOURCES/)
+### Tier 6: Resources
 Additional tools, styles, and documentation
 
 ---
