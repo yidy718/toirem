@@ -99,4 +99,12 @@ TIER B: Detailed Review (Over Threshold)
 
 ---
 
+## ⚠️ COPYRIGHT NOTICE
+
+**© 2025 Yidy. All Rights Reserved.**
+
+This framework is proprietary intellectual property. **NO USE PERMITTED** without written permission from Yidy (Yidy@pm.me). This includes TOIREM Canada and all other organizations. See [LICENSE](LICENSE) for full terms.
+
+---
+
 *TOIREM Framework v2025 - Evidence-based, CRA-compliant charity assistance*
