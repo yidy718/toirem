@@ -8,6 +8,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
+    /* Ensure sidebar is always visible on desktop */
+    @media (min-width: 768px) {
+      .sidebar {
+        display: block !important;
+        width: 300px !important;
+        transform: translateX(0) !important;
+      }
+
+      .content {
+        left: 300px !important;
+      }
+
+      body.close .sidebar {
+        transform: translateX(0) !important;
+      }
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 767px) {
+      .sidebar {
+        width: 300px !important;
+      }
+
+      body.close .sidebar {
+        transform: translateX(-300px);
+      }
+
+      .content {
+        left: 0 !important;
+      }
+
+      body.close .content {
+        transform: translateX(0);
+      }
+    }
+
+    .sidebar-toggle {
+      display: block !important;
+      background-color: transparent !important;
+      width: auto !important;
+      padding: 10px !important;
+    }
+
     .sidebar-nav > ul > li {
       font-weight: 700;
       margin: 15px 0 5px;
@@ -161,10 +204,12 @@
       name: 'TOIREM',
       repo: 'https://github.com/yidy718/toirem',
       loadSidebar: true,
+      sidebarDisplayLevel: 1,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
       subMaxLevel: 3,
+      maxLevel: 4,
       search: {
         placeholder: 'Search for thresholds, policies, forms...',
         noData: 'No Results Found',
@@ -238,17 +283,18 @@
               }
             });
 
-            // Add click tracking for internal links
-            const internalLinks = document.querySelectorAll('.markdown-section a[href^="#"], .markdown-section a:not([href^="http"])');
+            // Fix internal links for docsify navigation
+            const internalLinks = document.querySelectorAll('.markdown-section a:not([href^="http"])');
             internalLinks.forEach(link => {
-              link.addEventListener('click', function(e) {
-                const href = this.getAttribute('href');
-                if (href && !href.startsWith('http') && !href.startsWith('#')) {
-                  // Convert relative paths to hash paths for docsify
-                  e.preventDefault();
-                  window.location.hash = '#/' + href.replace('.md', '');
+              const href = link.getAttribute('href');
+              if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                // Convert relative paths to hash paths for docsify
+                if (href.endsWith('.md')) {
+                  link.setAttribute('href', '#/' + href.replace('.md', ''));
+                } else {
+                  link.setAttribute('href', '#/' + href);
                 }
-              });
+              }
             });
           });
         }
