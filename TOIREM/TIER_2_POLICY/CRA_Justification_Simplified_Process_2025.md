@@ -116,10 +116,11 @@ This approach is similar to statutory declarations used in many government progr
    - Address proof mandatory
    - Cross-reference with community directories
 
-2. **Declaration Under Penalty**
-   - Signed statement of need
-   - Acknowledgment of fraud consequences
-   - Agreement to verification if selected
+2. **Declaration and Acknowledgment**
+   - Signed statement of current financial need
+   - Stated purpose of requested funds (rent, food, utilities, etc.)
+   - Acknowledgment that funds will be used for stated purpose
+   - Agreement to follow-up contact if selected
 
 3. **Community Verification**
    - Informal verification through synagogue
@@ -133,11 +134,12 @@ This approach is similar to statutory declarations used in many government progr
    - Category limits (rent $1,500/month, food $500/month)
    - Frequency restrictions (monthly maximums)
 
-2. **Direct Payment Priority**
-   - Pay landlords directly
-   - Utility company payments
-   - Grocery store gift cards
-   - Minimizes cash distributions
+2. **Payment Methods**
+   - Checks or e-transfers to recipients (most common)
+   - Direct to vendor when practical and preferred
+   - Grocery store gift cards for food assistance
+   - All methods require stated purpose and recipient acknowledgment
+   - No receipts collected — self-declaration model consistent with food banks
 
 #### C. Pattern Analysis
 
@@ -213,6 +215,14 @@ This approach is similar to statutory declarations used in many government progr
 - Self-declaration is standard across the sector
 - Focus on immediate relief to populations unlikely to include those not in need
 - **CRA Accepted**: These registered charities have operated for decades under this model
+
+#### Self-Declaration Payment Model
+- Like food banks, Toirem Canada uses a self-declaration model
+- Recipients attest to need AND intended use of funds
+- Checks and e-transfers go directly to recipients
+- **No receipts required** — recipient's signed acknowledgment is sufficient
+- Follow-up calls (not receipt collection) verify outcomes for larger amounts
+- **CRA Accepted**: Consistent with poverty relief sector practices
 - **Legal Basis**: CG-029 permits simplified verification when "the potential of providing non-incidental private benefit is negligible"
 
 #### Disaster Relief Model

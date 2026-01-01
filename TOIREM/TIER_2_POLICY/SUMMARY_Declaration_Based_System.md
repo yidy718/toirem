@@ -49,7 +49,7 @@ Staff can verify need through:
 - Maximum $5,000 per request
 - Category caps (rent $1,500/month, food $500/month)
 - Annual family limits
-- Direct vendor payment preferred
+- All payment methods acceptable (check, e-transfer, vendor, gift card)
 
 ---
 

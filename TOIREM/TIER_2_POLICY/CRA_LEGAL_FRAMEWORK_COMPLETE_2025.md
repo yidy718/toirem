@@ -208,9 +208,10 @@ Our assistance framework is based on comprehensive research including:
 
 **Safeguards:**
 - Identity verification required
+- Stated purpose and acknowledgment signature required
 - Annual caps enforced
-- Direct vendor payment preferred
-- Random audits (10% selection)
+- Payment method flexible (check, e-transfer, vendor, gift card)
+- Random follow-up calls (10% selection) — no receipts required
 
 ### Tier 2: Full Documentation ($5,000+)
 
@@ -281,10 +282,20 @@ Our assistance framework is based on comprehensive research including:
 - Board approval
 
 ### Step 4: Disbursement
-- Preferably direct to vendor
-- Grocery gift cards for food
-- E-transfer for verified repeat clients
-- Cheque as last resort
+
+**Payment Methods (all acceptable with proper documentation):**
+- Check to recipient — most common method
+- E-transfer to recipient — for urgent needs or recipient preference
+- Direct to vendor — when practical and recipient prefers
+- Grocery gift cards — for food assistance
+
+**Documentation Required:**
+- Stated purpose on application (rent, food, utilities, etc.)
+- Recipient acknowledgment signature
+- Payment record (check copy or e-transfer confirmation)
+
+**Self-Declaration Model:**
+Consistent with food banks and other poverty relief charities, we do not require recipients to provide receipts or proof of spending. The recipient's signed acknowledgment of intended use is sufficient documentation.
 
 ### Step 5: Follow-up
 - Under $1,000: No follow-up required
@@ -307,10 +318,12 @@ Our assistance framework is based on comprehensive research including:
 | Over $10,000 | N/A | Board Vote |
 
 ### Payment Controls
-- Two signatures required for all payments
-- Vendor direct payment prioritized
+- Two signatures required for payments over $500
+- All payment methods acceptable (check, e-transfer, vendor, gift card)
+- Stated purpose and recipient acknowledgment required for all payments
 - Monthly reconciliation mandatory
 - Quarterly board review
+- No receipt collection from recipients — self-declaration model
 
 ## 5.2 Budget Allocation
 
@@ -360,9 +373,17 @@ Our assistance framework is based on comprehensive research including:
 
 ### ✓ Documentation Standards
 - [x] All transactions recorded
-- [x] Receipts issued per CRA guidelines
+- [x] Donation receipts issued per CRA guidelines
 - [x] Books and records maintained
 - [x] Seven-year retention policy
+- [x] **Self-declaration model for recipient payments** — no recipient receipts required
+
+### ✓ Payment Documentation Model
+- [x] Recipients state purpose of funds on application
+- [x] Recipients sign acknowledgment of intended use
+- [x] Payment records maintained (check/e-transfer confirmation)
+- [x] Follow-up calls for larger amounts document outcomes
+- [x] Consistent with food bank model accepted by CRA for decades
 
 ### ✓ Operational Requirements
 - [x] Canadian activities (90%+ in Canada)
@@ -373,13 +394,15 @@ Our assistance framework is based on comprehensive research including:
 ## 6.2 Audit Trail Documentation
 
 ### For Every Transaction:
-1. Application form with unique ID
-2. Identity verification copy
-3. Declaration or income documents
-4. Approval signatures
-5. Payment record
-6. Vendor invoice (if applicable)
-7. Follow-up notes
+1. Application form with unique ID and **stated purpose**
+2. Identity verification copy (government photo ID)
+3. **Recipient acknowledgment signature** (funds will be used for stated purpose)
+4. Declaration of need (Tier 1) or NOA income documents (Tier 2)
+5. Approval signatures per matrix
+6. Payment record (check copy, e-transfer confirmation, or gift card receipt)
+7. Follow-up notes (for amounts over $3,000)
+
+**Note:** Receipts from recipients are NOT required. The signed acknowledgment of intended use is sufficient per the self-declaration model used throughout the poverty relief sector.
 
 ### Random Audit Process:
 - 10% monthly selection
@@ -524,6 +547,7 @@ Our assistance framework is based on comprehensive research including:
 2. Two-Tier Processing Flowchart
 3. Emergency Response Protocol
 4. Vendor Payment Agreement Template
+5. **Direct Payment Policy** (Appendix E)
 
 ## Reporting Templates
 1. Monthly Board Report
@@ -579,6 +603,69 @@ Email: cs@toirem.org
 Compliance Officer: [Name]
 Direct Line: [Phone]
 Email: compliance@toirem.org
+
+---
+
+---
+
+# APPENDIX E: DIRECT PAYMENT POLICY
+
+## Payment Methods and Documentation
+### Toirem Canada — December 2025
+
+This policy establishes documentation requirements for all payment methods, balancing CRA compliance with practical community realities.
+
+**Guiding Principle:** Recipients sign a declaration attesting to their need and intended use of funds. This self-declaration model is consistent with food banks and other CRA-registered poverty relief charities.
+
+### Available Payment Methods
+
+| Method | Description | When Used |
+|--------|-------------|-----------|
+| **Direct to vendor** | Payment to landlord, utility company, etc. | When vendor accepts and recipient prefers |
+| **Check to recipient** | Check made payable to recipient | Common method; recipient handles payment |
+| **E-transfer to recipient** | Interac e-transfer to recipient | Urgent needs; recipient preference |
+| **Gift cards** | Grocery store gift cards | Food assistance |
+| **Cash** | Physical cash | Emergency only; requires director approval |
+
+### Documentation Requirements
+
+**For ALL Payments:**
+- Application form with stated purpose
+- Recipient acknowledgment signature
+- Government photo ID
+- Payment record (check copy or e-transfer confirmation)
+
+**NO receipts required from recipients. The signed acknowledgment of intended use is sufficient.**
+
+### Follow-Up Process
+
+Follow-up is **not** to verify receipts or audit spending. It's to:
+- Check if the assistance resolved the crisis
+- Identify if additional help is needed
+- Build relationship and trust
+- Document outcomes for impact reporting
+
+| Amount | Follow-Up Required? |
+|--------|-------------------|
+| Under $1,000 | No |
+| $1,000 - $2,999 | Optional check-in if time permits |
+| $3,000 - $4,999 | Recommended 30-day check-in |
+| $5,000+ | Yes - 30-day and 90-day check-in |
+
+### CRA Compliance
+
+This approach meets CRA requirements through:
+- Declaration + NOA for larger amounts (beneficiaries in poverty)
+- Stated purpose + recipient acknowledgment (charitable purpose)
+- Application, payment records, follow-up notes (adequate records)
+- ID verification, database tracking, periodic follow-up (due diligence)
+
+**Why We Don't Require Receipts:**
+1. CRA doesn't mandate them — No CRA guidance requires receipt collection from beneficiaries
+2. Food bank precedent — Self-declaration is standard in poverty relief sector
+3. Declaration is sufficient — Recipient attests under signature to intended use
+4. Practical barriers — Many recipients cannot easily provide receipts
+5. Trust-based model — Consistent with community values and effective service delivery
 
 ---
 

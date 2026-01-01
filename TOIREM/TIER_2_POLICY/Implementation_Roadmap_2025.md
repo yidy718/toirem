@@ -68,11 +68,12 @@ This roadmap guides the implementation of Toirem Canada's new Eligibility Framew
 - [ ] Establish audit trail procedures
 
 ### Week 4: External Relationships
-**Vendor Partnerships:**
-- [ ] Contact grocery stores for gift card arrangements
-- [ ] Meet with property management companies
-- [ ] Establish relationships with utility companies
-- [ ] Set up pharmacy accounts for direct billing
+**Payment Infrastructure:**
+- [ ] Set up check stock and signing authorities
+- [ ] Configure e-transfer capabilities (Interac)
+- [ ] Contact grocery stores for gift card arrangements (optional)
+- [ ] Establish vendor payment process (for when recipients prefer)
+- [ ] Create payment tracking in database
 
 **Community Connections:**
 - [ ] Connect with other Montreal charities to avoid duplication
