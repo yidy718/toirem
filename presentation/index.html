@@ -5,340 +5,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <title>TOIREM Framework - Documentation</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>TOIREM - Transforming Charity Assistance</title>
+    <link rel="stylesheet" href="landing-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="app-container">
-        <!-- Mobile Menu Toggle -->
-        <button class="mobile-menu-toggle" onclick="toggleSidebar()">
-            <i class="fas fa-bars"></i>
-        </button>
+    <!-- Navigation -->
+    <nav class="nav-header">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-name">TOIREM</span>
+                <span class="brand-tag">CRA #751018425RR0001</span>
+            </div>
+            <a href="docs.html" class="nav-docs-btn">
+                <i class="fas fa-book"></i>
+                <span>View Documentation</span>
+            </a>
+        </div>
+    </nav>
 
-        <!-- Overlay for mobile menu -->
-        <div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Transforming Charity Assistance
+                    <span class="hero-subtitle">for Montreal's Orthodox Jewish Community</span>
+                </h1>
+                <p class="hero-description">
+                    A revolutionary two-tier system that streamlines assistance delivery while maintaining
+                    full CRA compliance. Evidence-based thresholds that reflect real community needs.
+                </p>
 
-        <!-- Sidebar Navigation -->
-        <aside class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <button class="sidebar-close" onclick="closeSidebar()">
-                    <i class="fas fa-times"></i>
-                </button>
-                <h2>TOIREM Framework</h2>
-                <p class="reg-number">#751018425RR0001</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">70%</div>
+                        <div class="stat-label">Same-Day Approvals</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">CRA Compliant</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">32-43%</div>
+                        <div class="stat-label">Higher Living Costs</div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="docs.html" class="btn-primary">
+                        <i class="fas fa-arrow-right"></i>
+                        Explore Framework
+                    </a>
+                    <a href="#problem" class="btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="section-problem">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Challenge We're Solving</h2>
+                <p>Orthodox Jewish families face unique financial pressures</p>
             </div>
 
-            <nav class="sidebar-nav">
-                <div class="nav-section">
-                    <h3><i class="fas fa-chart-bar"></i> Quick Access</h3>
-                    <button class="nav-item active" data-doc="overview">Overview & Thresholds</button>
-                    <button class="nav-item" data-doc="calculator">Universal Formula Calculator</button>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Large Family Sizes</h3>
+                    <p>Average 5-8 children per family requires significantly larger housing and higher daily expenses</p>
                 </div>
 
-                <div class="nav-section">
-                    <h3><i class="fas fa-gavel"></i> Tier 1: Governance</h3>
-                    <button class="nav-item" data-doc="board-resolution">Board Resolution 2025</button>
-                    <button class="nav-item" data-doc="privacy-policy">Privacy Policy</button>
-                    <button class="nav-item" data-doc="cra-compliance">CRA Compliance</button>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Kosher Food Premium</h3>
+                    <p>32-43% higher food costs due to kosher certification and limited supplier options</p>
                 </div>
 
-                <div class="nav-section">
-                    <h3><i class="fas fa-balance-scale"></i> Tier 2: Policy</h3>
-                    <button class="nav-item" data-doc="executive-summary">Executive Summary</button>
-                    <button class="nav-item" data-doc="legal-framework">CRA Legal Framework</button>
-                    <button class="nav-item" data-doc="implementation">Implementation Roadmap</button>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Religious Education</h3>
+                    <p>$3,000-8,000 per child annually for Jewish day school education - a religious necessity</p>
                 </div>
 
-                <div class="nav-section">
-                    <h3><i class="fas fa-microscope"></i> Tier 3: Evidence</h3>
-                    <button class="nav-item" data-doc="master-calculations">Master Calculations</button>
-                    <button class="nav-item" data-doc="living-costs">Living Cost Analysis</button>
-                    <button class="nav-item" data-doc="cra-research">CRA Research</button>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-star-of-david"></i>
+                    </div>
+                    <h3>Religious Obligations</h3>
+                    <p>$3,500-6,000 annually for ritual items, holiday observances, and religious requirements</p>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="nav-section">
-                    <h3><i class="fas fa-book"></i> Research Documents</h3>
-                    <button class="nav-item" data-doc="research-quebec-costs">Quebec Cost Analysis</button>
-                    <button class="nav-item" data-doc="research-housing">Housing Market 2025</button>
-                    <button class="nav-item" data-doc="research-kosher">Kosher Food Costs</button>
-                    <button class="nav-item" data-doc="research-education">Jewish Education Costs</button>
-                    <button class="nav-item" data-doc="research-demographics">Hasidic Demographics</button>
-                    <button class="nav-item" data-doc="research-differential">Cost Differential</button>
-                    <button class="nav-item" data-doc="research-hasidic-costs">Family Living Research</button>
-                    <button class="nav-item" data-doc="research-montreal-col">Montreal COL Analysis</button>
-                    <button class="nav-item" data-doc="research-uk">UK Comparison</button>
+    <!-- The Solution Section -->
+    <section class="section-solution">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Evidence-Based Solution</h2>
+                <p>A streamlined two-tier system that respects dignity while ensuring compliance</p>
+            </div>
+
+            <div class="solution-tiers">
+                <div class="tier-display">
+                    <div class="tier tier-a">
+                        <div class="tier-header">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Tier A: Self-Declaration</h3>
+                        </div>
+                        <div class="tier-content">
+                            <p class="tier-desc">For families under income threshold</p>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Simple declaration form</li>
+                                <li><i class="fas fa-check"></i> Same-day approval</li>
+                                <li><i class="fas fa-check"></i> Minimal documentation</li>
+                                <li><i class="fas fa-check"></i> Preserves dignity</li>
+                            </ul>
+                            <div class="tier-metric">
+                                <span class="metric-label">Expected Volume:</span>
+                                <span class="metric-value">70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tier tier-b">
+                        <div class="tier-header">
+                            <i class="fas fa-clipboard-check"></i>
+                            <h3>Tier B: Detailed Review</h3>
+                        </div>
+                        <div class="tier-content">
+                            <p class="tier-desc">For families above threshold</p>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Comprehensive assessment</li>
+                                <li><i class="fas fa-check"></i> 5-10 day processing</li>
+                                <li><i class="fas fa-check"></i> Additional $26,144 allowed</li>
+                                <li><i class="fas fa-check"></i> Full documentation</li>
+                            </ul>
+                            <div class="tier-metric">
+                                <span class="metric-label">Expected Volume:</span>
+                                <span class="metric-value">30%</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="nav-section">
-                    <h3><i class="fas fa-clipboard-list"></i> Tier 4: Operations</h3>
-                    <button class="nav-item" data-doc="application-form">Application Form</button>
-                    <button class="nav-item" data-doc="quick-guide">Quick Reference</button>
-                    <button class="nav-item" data-doc="assessment">Assessment Worksheet</button>
+    <!-- Key Thresholds Section -->
+    <section class="section-thresholds">
+        <div class="container">
+            <div class="section-header">
+                <h2>2025 Income Thresholds</h2>
+                <p>Evidence-based thresholds reflecting actual living costs</p>
+            </div>
+
+            <div class="threshold-showcase">
+                <div class="threshold-card">
+                    <h4>Single Person</h4>
+                    <div class="threshold-amount">$32,134</div>
+                    <div class="threshold-monthly">$2,678/month</div>
                 </div>
-
-                <div class="nav-section">
-                    <h3><i class="fas fa-chart-line"></i> Tier 5: Tracking</h3>
-                    <button class="nav-item" data-doc="monthly-report">Monthly Report</button>
-                    <button class="nav-item" data-doc="audit-checklist">Audit Checklist</button>
-                    <button class="nav-item" data-doc="t3010">T3010 Worksheet</button>
+                <div class="threshold-card">
+                    <h4>Couple</h4>
+                    <div class="threshold-amount">$48,286</div>
+                    <div class="threshold-monthly">$4,024/month</div>
                 </div>
-            </nav>
+                <div class="threshold-card featured">
+                    <h4>Family of 4</h4>
+                    <div class="threshold-amount">$65,997</div>
+                    <div class="threshold-monthly">$5,500/month</div>
+                </div>
+                <div class="threshold-card">
+                    <h4>Family of 6</h4>
+                    <div class="threshold-amount">$92,141</div>
+                    <div class="threshold-monthly">$7,678/month</div>
+                </div>
+                <div class="threshold-card">
+                    <h4>Family of 8</h4>
+                    <div class="threshold-amount">$113,141</div>
+                    <div class="threshold-monthly">$9,428/month</div>
+                </div>
+            </div>
 
-            <div class="sidebar-footer">
-                <button class="btn-download" onclick="downloadAsPDF()">
-                    <i class="fas fa-file-pdf"></i> Download as PDF
-                </button>
-                <div class="copyright">
-                    <p>&copy; 2025 Yidy</p>
+            <div class="formula-callout">
+                <i class="fas fa-calculator"></i>
+                <div>
+                    <h4>Universal Formula Available</h4>
+                    <p>Calculate thresholds for any family size using our evidence-based formula</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Section -->
+    <section class="section-compliance">
+        <div class="container">
+            <div class="section-header">
+                <h2>Built on Solid Foundation</h2>
+                <p>Every aspect backed by research and CRA guidance</p>
+            </div>
+
+            <div class="compliance-grid">
+                <div class="compliance-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Full CRA Compliance</h3>
+                    <p>15+ CRA sources confirm complete alignment with charitable regulations</p>
+                </div>
+                <div class="compliance-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Privacy Protected</h3>
+                    <p>PIPEDA-compliant protocols safeguard sensitive information</p>
+                </div>
+                <div class="compliance-item">
+                    <i class="fas fa-clipboard-check"></i>
+                    <h3>Audit Ready</h3>
+                    <p>Complete documentation trail with monthly reporting systems</p>
+                </div>
+                <div class="compliance-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Evidence Based</h3>
+                    <p>Every threshold supported by comprehensive cost analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Charity Assistance?</h2>
+                <p>Explore the complete framework documentation and implementation guides</p>
+                <div class="cta-buttons">
+                    <a href="docs.html" class="btn-cta-primary">
+                        <i class="fas fa-book-open"></i>
+                        View Full Documentation
+                    </a>
+                    <a href="mailto:yidy@pm.me" class="btn-cta-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Yidy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>TOIREM Framework</h3>
+                    <p>Evidence-based charity assistance</p>
+                </div>
+                <div class="footer-info">
+                    <p>Registration #751018425RR0001</p>
+                    <p>&copy; 2025 Yidy. All Rights Reserved.</p>
                     <a href="mailto:yidy@pm.me">yidy@pm.me</a>
                 </div>
             </div>
-        </aside>
+        </div>
+    </footer>
 
-        <!-- Main Content Area -->
-        <main class="main-content">
-            <div class="content-header">
-                <h1 id="doc-title">2025 Income Thresholds & Universal Formula</h1>
-                <div class="header-actions">
-                    <button class="btn-print" onclick="window.print()"><i class="fas fa-print"></i> Print</button>
-                    <button class="btn-pdf" onclick="downloadAsPDF()"><i class="fas fa-file-pdf"></i> Download PDF</button>
-                </div>
-            </div>
-
-            <div id="content-area" class="content-body">
-                <!-- Initial content: Thresholds table and calculator -->
-                <div class="threshold-section">
-                    <h2><i class="fas fa-chart-bar"></i> Income Thresholds for All Family Sizes</h2>
-
-                    <div class="threshold-table-container">
-                        <table class="threshold-table">
-                            <thead>
-                                <tr>
-                                    <th>Family Size</th>
-                                    <th>Basic Threshold</th>
-                                    <th>Maximum Allowed</th>
-                                    <th>Monthly</th>
-                                    <th>Tier Classification</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="highlight-row">
-                                    <td><strong>Single</strong></td>
-                                    <td class="amount">$32,134</td>
-                                    <td class="amount">$58,278</td>
-                                    <td class="amount">$2,678/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Couple</strong></td>
-                                    <td class="amount">$48,286</td>
-                                    <td class="amount">$74,430</td>
-                                    <td class="amount">$4,024/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr class="highlight-row">
-                                    <td><strong>Family of 3</strong></td>
-                                    <td class="amount">$56,786</td>
-                                    <td class="amount">$82,930</td>
-                                    <td class="amount">$4,732/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Family of 4</strong></td>
-                                    <td class="amount">$65,997</td>
-                                    <td class="amount">$92,141</td>
-                                    <td class="amount">$5,500/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr class="highlight-row">
-                                    <td><strong>Family of 5</strong></td>
-                                    <td class="amount">$78,569</td>
-                                    <td class="amount">$104,713</td>
-                                    <td class="amount">$6,547/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Family of 6</strong></td>
-                                    <td class="amount">$92,141</td>
-                                    <td class="amount">$118,285</td>
-                                    <td class="amount">$7,678/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr class="highlight-row">
-                                    <td><strong>Family of 7</strong></td>
-                                    <td class="amount">$102,641</td>
-                                    <td class="amount">$128,785</td>
-                                    <td class="amount">$8,553/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Family of 8</strong></td>
-                                    <td class="amount">$113,141</td>
-                                    <td class="amount">$139,285</td>
-                                    <td class="amount">$9,428/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr class="highlight-row">
-                                    <td><strong>Family of 9</strong></td>
-                                    <td class="amount">$123,641</td>
-                                    <td class="amount">$149,785</td>
-                                    <td class="amount">$10,303/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Family of 10</strong></td>
-                                    <td class="amount">$134,141</td>
-                                    <td class="amount">$160,285</td>
-                                    <td class="amount">$11,178/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr class="highlight-row">
-                                    <td><strong>Family of 11</strong></td>
-                                    <td class="amount">$144,641</td>
-                                    <td class="amount">$170,785</td>
-                                    <td class="amount">$12,053/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Family of 12</strong></td>
-                                    <td class="amount">$155,141</td>
-                                    <td class="amount">$181,285</td>
-                                    <td class="amount">$12,928/mo</td>
-                                    <td><span class="badge tier-a">Tier A if under</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <div class="tier-explanation">
-                        <div class="tier-card tier-a-card">
-                            <h3><i class="fas fa-check-circle"></i> Tier A: Self-Declaration</h3>
-                            <p>Income under basic threshold</p>
-                            <ul>
-                                <li>Simple declaration form</li>
-                                <li>Same-day approval</li>
-                                <li>Minimal documentation</li>
-                            </ul>
-                        </div>
-                        <div class="tier-card tier-b-card">
-                            <h3><i class="fas fa-exclamation-circle"></i> Tier B: Detailed Review</h3>
-                            <p>Income between thresholds</p>
-                            <ul>
-                                <li>Full financial assessment</li>
-                                <li>5-10 day processing</li>
-                                <li>Additional $26,144 allowed</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Universal Formula Calculator -->
-                <div class="calculator-section">
-                    <h2><i class="fas fa-calculator"></i> Universal Formula Calculator</h2>
-                    <p class="formula-intro">Calculate assistance threshold for any family configuration</p>
-
-                    <div class="formula-display">
-                        <h3>Master Formula</h3>
-                        <div class="formula-box">
-                            <strong>Annual Threshold =</strong><br>
-                            (Adults × $24,143) +<br>
-                            (Children × Child Cost) +<br>
-                            Housing Cost +<br>
-                            Religious Obligations ($15,966) +<br>
-                            Special Adjustments
-                        </div>
-
-                        <div class="formula-details">
-                            <h4>Component Breakdown:</h4>
-                            <ul>
-                                <li><strong>Child Cost:</strong> $8,500 base + ($500 × school age children)</li>
-                                <li><strong>Housing Cost:</strong> $24,000 base + ($6,000 × number of children)</li>
-                                <li><strong>Religious Obligations:</strong> $15,966 per family (fixed)</li>
-                                <li><strong>Special Adjustments:</strong> Medical needs, disabilities, etc.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="calculator-form">
-                        <h3>Interactive Calculator</h3>
-                        <div class="calc-inputs">
-                            <div class="input-group">
-                                <label>Number of Adults:</label>
-                                <input type="number" id="adults" min="1" max="2" value="2" onchange="calculateThreshold()">
-                            </div>
-                            <div class="input-group">
-                                <label>Children Under 5:</label>
-                                <input type="number" id="young" min="0" max="10" value="0" onchange="calculateThreshold()">
-                            </div>
-                            <div class="input-group">
-                                <label>Children 5-12:</label>
-                                <input type="number" id="school" min="0" max="10" value="2" onchange="calculateThreshold()">
-                            </div>
-                            <div class="input-group">
-                                <label>Children 13-17:</label>
-                                <input type="number" id="teens" min="0" max="10" value="0" onchange="calculateThreshold()">
-                            </div>
-                        </div>
-
-                        <div class="calc-result">
-                            <h4>Calculated Threshold:</h4>
-                            <div class="result-display">
-                                <div class="result-item">
-                                    <span>Basic Threshold:</span>
-                                    <strong id="calc-basic">$65,997</strong>
-                                </div>
-                                <div class="result-item">
-                                    <span>Maximum Allowed:</span>
-                                    <strong id="calc-max">$92,141</strong>
-                                </div>
-                                <div class="result-item">
-                                    <span>Monthly:</span>
-                                    <strong id="calc-monthly">$5,500/mo</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Key Cost Components -->
-                <div class="cost-section">
-                    <h2><i class="fas fa-dollar-sign"></i> Key Cost Components</h2>
-                    <div class="cost-grid">
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-home"></i></div>
-                            <h4>Housing (3BR)</h4>
-                            <p class="cost-amount">$1,850/month</p>
-                            <p class="cost-annual">$22,200/year</p>
-                        </div>
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-utensils"></i></div>
-                            <h4>Kosher Food</h4>
-                            <p class="cost-amount">+32-43%</p>
-                            <p class="cost-annual">$3,600-5,000/year premium</p>
-                        </div>
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-graduation-cap"></i></div>
-                            <h4>Jewish Education</h4>
-                            <p class="cost-amount">$250-667/child/month</p>
-                            <p class="cost-annual">$3,000-8,000/year</p>
-                        </div>
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-star-of-david"></i></div>
-                            <h4>Religious Items</h4>
-                            <p class="cost-amount">$292-500/month</p>
-                            <p class="cost-annual">$3,500-6,000/year</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-
-    <script src="script.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
