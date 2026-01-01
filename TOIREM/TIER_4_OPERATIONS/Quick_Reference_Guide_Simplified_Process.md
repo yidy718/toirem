@@ -222,11 +222,11 @@ NO  → FULL DOCUMENTATION (this page, right column)
 
 | Amount | Simplified Process | Full Documentation |
 |--------|-------------------|-------------------|
-| Up to $500 | Staff | Staff |
-| $501-$2,500 | Manager | Manager |
-| $2,501-$5,000 | Manager + Review | Director |
-| $5,001-$10,000 | N/A | Board Member |
-| Over $10,000 | N/A | Board Vote |
+| Under $500 | Staff | Staff |
+| $500-$2,500 | Manager | Manager |
+| $2,501-$5,000 | Director | Director |
+| $5,001-$10,000 | One Board Member signature | One Board Member signature |
+| Over $10,000 | Executive Director | Executive Director |
 
 ---
 

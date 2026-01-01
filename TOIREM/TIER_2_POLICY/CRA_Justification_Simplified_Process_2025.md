@@ -92,10 +92,10 @@ This approach is similar to statutory declarations used in many government progr
    - Observable: Housing quality indicates economic status
 
 3. **Community Knowledge**
-   - Rabbinical references confirm need
-   - Known to other Jewish social services
-   - Children receiving subsidized education
-   - Observable: Community awareness of family struggles
+   - Community or rabbinical references may be considered when available and recipient consents (optional, not required)
+   - Known to other Jewish social services (if applicable)
+   - Children receiving subsidized education (observable indicator)
+   - Observable: Community awareness of family struggles (when known)
 
 4. **Request Patterns**
    - Seeking basic necessities only
@@ -122,10 +122,10 @@ This approach is similar to statutory declarations used in many government progr
    - Acknowledgment that funds will be used for stated purpose
    - Agreement to follow-up contact if selected
 
-3. **Community Verification**
-   - Informal verification through synagogue
-   - Check with other Jewish charities
-   - Rabbi or community leader awareness
+3. **Community Verification (Optional)**
+   - May consult with synagogue if recipient consents
+   - May check with other Jewish charities when appropriate
+   - Community or rabbinical references considered when available (not required)
 
 #### B. Assistance Limits
 

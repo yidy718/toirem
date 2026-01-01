@@ -217,6 +217,8 @@ Our assistance framework is based on comprehensive research including:
 
 **Legal Context:** Per Credit Counselling Services of Atlantic Canada Inc. v. Canada (2016 FCA 193), beneficiaries must be **currently experiencing poverty** at the time assistance is provided. This tier ensures thorough verification for higher-value assistance.
 
+**Payment Frequency:** Annual lump sum payments are acceptable. Ongoing assistance requires annual re-verification, but payment frequency (annual/quarterly/monthly) is at organization's discretion.
+
 **Requirements:**
 - Notice of Assessment (both spouses) - confirms current income
 - Social Insurance Number
@@ -262,13 +264,19 @@ Our assistance framework is based on comprehensive research including:
 - Route to appropriate tier
 
 ### Step 2: Documentation
+
+**Application Form:** One base form used for all amounts
+
 **Under $5,000:**
 - Government ID
-- Completed application
+- Completed base application form
 - Signed declaration: "I need financial assistance for my day-to-day needs"
 
 **$5,000 and Over:**
-- All above plus full income documentation
+- All above PLUS these attachments:
+  - Notice of Assessment (both spouses)
+  - Budget worksheet
+  - Full income documentation
 
 ### Step 3: Verification
 **Under $5,000:**
@@ -313,9 +321,9 @@ Consistent with food banks and other poverty relief charities, we do not require
 |--------|------------------|------------------|
 | Under $500 | Staff | Staff |
 | $500-2,500 | Manager | Manager |
-| $2,501-5,000 | Manager | Director |
-| $5,001-10,000 | N/A | Board Member |
-| Over $10,000 | N/A | Board Vote |
+| $2,501-5,000 | Director | Director |
+| $5,001-10,000 | One Board Member signature | One Board Member signature |
+| Over $10,000 | Executive Director | Executive Director |
 
 ### Payment Controls
 - Two signatures required for payments over $500
