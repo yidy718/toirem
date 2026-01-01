@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
@@ -21,41 +22,54 @@
 
             <nav class="sidebar-nav">
                 <div class="nav-section">
-                    <h3>📊 Quick Access</h3>
+                    <h3><i class="fas fa-chart-bar"></i> Quick Access</h3>
                     <button class="nav-item active" data-doc="overview">Overview & Thresholds</button>
                     <button class="nav-item" data-doc="calculator">Universal Formula Calculator</button>
                 </div>
 
                 <div class="nav-section">
-                    <h3>📋 Tier 1: Governance</h3>
+                    <h3><i class="fas fa-gavel"></i> Tier 1: Governance</h3>
                     <button class="nav-item" data-doc="board-resolution">Board Resolution 2025</button>
                     <button class="nav-item" data-doc="privacy-policy">Privacy Policy</button>
                     <button class="nav-item" data-doc="cra-compliance">CRA Compliance</button>
                 </div>
 
                 <div class="nav-section">
-                    <h3>📐 Tier 2: Policy</h3>
+                    <h3><i class="fas fa-balance-scale"></i> Tier 2: Policy</h3>
                     <button class="nav-item" data-doc="executive-summary">Executive Summary</button>
                     <button class="nav-item" data-doc="legal-framework">CRA Legal Framework</button>
                     <button class="nav-item" data-doc="implementation">Implementation Roadmap</button>
                 </div>
 
                 <div class="nav-section">
-                    <h3>🔬 Tier 3: Evidence</h3>
+                    <h3><i class="fas fa-microscope"></i> Tier 3: Evidence</h3>
                     <button class="nav-item" data-doc="master-calculations">Master Calculations</button>
                     <button class="nav-item" data-doc="living-costs">Living Cost Analysis</button>
                     <button class="nav-item" data-doc="cra-research">CRA Research</button>
                 </div>
 
                 <div class="nav-section">
-                    <h3>📝 Tier 4: Operations</h3>
+                    <h3><i class="fas fa-book"></i> Research Documents</h3>
+                    <button class="nav-item" data-doc="research-quebec-costs">Quebec Cost Analysis</button>
+                    <button class="nav-item" data-doc="research-housing">Housing Market 2025</button>
+                    <button class="nav-item" data-doc="research-kosher">Kosher Food Costs</button>
+                    <button class="nav-item" data-doc="research-education">Jewish Education Costs</button>
+                    <button class="nav-item" data-doc="research-demographics">Hasidic Demographics</button>
+                    <button class="nav-item" data-doc="research-differential">Cost Differential</button>
+                    <button class="nav-item" data-doc="research-hasidic-costs">Family Living Research</button>
+                    <button class="nav-item" data-doc="research-montreal-col">Montreal COL Analysis</button>
+                    <button class="nav-item" data-doc="research-uk">UK Comparison</button>
+                </div>
+
+                <div class="nav-section">
+                    <h3><i class="fas fa-clipboard-list"></i> Tier 4: Operations</h3>
                     <button class="nav-item" data-doc="application-form">Application Form</button>
                     <button class="nav-item" data-doc="quick-guide">Quick Reference</button>
                     <button class="nav-item" data-doc="assessment">Assessment Worksheet</button>
                 </div>
 
                 <div class="nav-section">
-                    <h3>📈 Tier 5: Tracking</h3>
+                    <h3><i class="fas fa-chart-line"></i> Tier 5: Tracking</h3>
                     <button class="nav-item" data-doc="monthly-report">Monthly Report</button>
                     <button class="nav-item" data-doc="audit-checklist">Audit Checklist</button>
                     <button class="nav-item" data-doc="t3010">T3010 Worksheet</button>
@@ -64,8 +78,12 @@
 
             <div class="sidebar-footer">
                 <button class="btn-download" onclick="downloadAsPDF()">
-                    📥 Download as PDF
+                    <i class="fas fa-file-pdf"></i> Download as PDF
                 </button>
+                <div class="copyright">
+                    <p>&copy; 2025 Yidy</p>
+                    <a href="mailto:yidy@pm.me">yidy@pm.me</a>
+                </div>
             </div>
         </aside>
 
@@ -74,15 +92,15 @@
             <div class="content-header">
                 <h1 id="doc-title">2025 Income Thresholds & Universal Formula</h1>
                 <div class="header-actions">
-                    <button class="btn-print" onclick="window.print()">🖨️ Print</button>
-                    <button class="btn-pdf" onclick="downloadAsPDF()">📄 Download PDF</button>
+                    <button class="btn-print" onclick="window.print()"><i class="fas fa-print"></i> Print</button>
+                    <button class="btn-pdf" onclick="downloadAsPDF()"><i class="fas fa-file-pdf"></i> Download PDF</button>
                 </div>
             </div>
 
             <div id="content-area" class="content-body">
                 <!-- Initial content: Thresholds table and calculator -->
                 <div class="threshold-section">
-                    <h2>📊 Income Thresholds for All Family Sizes</h2>
+                    <h2><i class="fas fa-chart-bar"></i> Income Thresholds for All Family Sizes</h2>
 
                     <div class="threshold-table-container">
                         <table class="threshold-table">
@@ -186,7 +204,7 @@
 
                     <div class="tier-explanation">
                         <div class="tier-card tier-a-card">
-                            <h3>🟢 Tier A: Self-Declaration</h3>
+                            <h3><i class="fas fa-check-circle"></i> Tier A: Self-Declaration</h3>
                             <p>Income under basic threshold</p>
                             <ul>
                                 <li>Simple declaration form</li>
@@ -195,7 +213,7 @@
                             </ul>
                         </div>
                         <div class="tier-card tier-b-card">
-                            <h3>🟡 Tier B: Detailed Review</h3>
+                            <h3><i class="fas fa-exclamation-circle"></i> Tier B: Detailed Review</h3>
                             <p>Income between thresholds</p>
                             <ul>
                                 <li>Full financial assessment</li>
@@ -208,7 +226,7 @@
 
                 <!-- Universal Formula Calculator -->
                 <div class="calculator-section">
-                    <h2>🧮 Universal Formula Calculator</h2>
+                    <h2><i class="fas fa-calculator"></i> Universal Formula Calculator</h2>
                     <p class="formula-intro">Calculate assistance threshold for any family configuration</p>
 
                     <div class="formula-display">
@@ -276,28 +294,28 @@
 
                 <!-- Key Cost Components -->
                 <div class="cost-section">
-                    <h2>💰 Key Cost Components</h2>
+                    <h2><i class="fas fa-dollar-sign"></i> Key Cost Components</h2>
                     <div class="cost-grid">
                         <div class="cost-card">
-                            <div class="cost-icon">🏠</div>
+                            <div class="cost-icon"><i class="fas fa-home"></i></div>
                             <h4>Housing (3BR)</h4>
                             <p class="cost-amount">$1,850/month</p>
                             <p class="cost-annual">$22,200/year</p>
                         </div>
                         <div class="cost-card">
-                            <div class="cost-icon">🥘</div>
+                            <div class="cost-icon"><i class="fas fa-utensils"></i></div>
                             <h4>Kosher Food</h4>
                             <p class="cost-amount">+32-43%</p>
                             <p class="cost-annual">$3,600-5,000/year premium</p>
                         </div>
                         <div class="cost-card">
-                            <div class="cost-icon">📚</div>
+                            <div class="cost-icon"><i class="fas fa-graduation-cap"></i></div>
                             <h4>Jewish Education</h4>
                             <p class="cost-amount">$250-667/child/month</p>
                             <p class="cost-annual">$3,000-8,000/year</p>
                         </div>
                         <div class="cost-card">
-                            <div class="cost-icon">✡️</div>
+                            <div class="cost-icon"><i class="fas fa-star-of-david"></i></div>
                             <h4>Religious Items</h4>
                             <p class="cost-amount">$292-500/month</p>
                             <p class="cost-annual">$3,500-6,000/year</p>

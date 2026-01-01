@@ -8,14 +8,19 @@
 |-------------|-----------------|-----------------|-------------------|
 | **Single** | **$32,134** | $58,278 | $2,678/month |
 | **Couple** | **$48,286** | $74,430 | $4,024/month |
+| **Family of 3** | **$60,784** | $86,928 | $5,065/month |
 | **Family of 4** | **$65,997** | $92,141 | $5,500/month |
+| **Family of 5** | **$76,500** | $102,644 | $6,375/month |
 | **Family of 6** | **$92,141** | $118,285 | $7,678/month |
+| **Family of 7** | **$102,643** | $128,787 | $8,554/month |
 | **Family of 8** | **$113,141** | $139,285 | $9,428/month |
 | **Family of 10** | **$134,141** | $160,285 | $11,178/month |
 | **Family of 12** | **$155,141** | $181,285 | $12,928/month |
 
 > **Tier A (Green Zone):** Under basic threshold = Simple declaration
 > **Tier B (Yellow Zone):** Between thresholds = Detailed review required
+>
+> **NEW:** [Universal Formula](TOIREM/TIER_3_EVIDENCE/MASTER_CALCULATIONS_WITH_SOURCES_2025.md#6-universal-formula-for-any-family-size) - Calculate thresholds for ANY family size
 
 ## 📁 Documentation Structure
 
@@ -57,6 +62,21 @@ Audit tools and reporting templates
 | **Kosher Food** | +32-43% | +$3,600-5,000 | Premium above regular |
 | **Jewish Education** | $250-667/child | $3,000-8,000 | Per child per year |
 | **Religious Items** | $292-500 | $3,500-6,000 | Family requirements |
+
+## ✅ Key Policy Updates (December 2025)
+
+### Direct Payment Policy
+- **Checks and e-transfers to recipients** are standard practice
+- **No receipts required** - self-declaration model (like food banks)
+- Recipients sign acknowledgment of intended use
+- Follow-up calls for larger amounts (not receipt collection)
+- All payment methods acceptable: check, e-transfer, vendor, gift card
+
+### Application Requirements
+- **Stated purpose** of funds required on all applications
+- **Recipient acknowledgment** signature required
+- One base application form for all amounts
+- Tier 2 ($5,000+) requires NOA verification
 
 ## 🚀 Quick Start
 
@@ -108,3 +128,4 @@ This framework is proprietary intellectual property. **NO USE PERMITTED** withou
 ---
 
 *TOIREM Framework v2025 - Evidence-based, CRA-compliant charity assistance*
+*Last Updated: December 31, 2025*
