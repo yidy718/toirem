@@ -125,12 +125,49 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update active state
             navItems.forEach(nav => nav.classList.remove('active'));
             this.classList.add('active');
+
+            // Close mobile menu after selection
+            if (window.innerWidth <= 1024) {
+                closeSidebar();
+            }
         });
     });
 
     // Initialize calculator
     calculateThreshold();
+
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 1024) {
+            closeSidebar();
+        }
+    });
 });
+
+// Mobile menu functions
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+
+    sidebar.classList.toggle('open');
+    overlay.classList.toggle('active');
+
+    // Prevent body scroll when menu is open
+    if (sidebar.classList.contains('open')) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = '';
+    }
+}
+
+function closeSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+
+    sidebar.classList.remove('open');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+}
 
 // Load document function
 async function loadDocument(docKey) {
