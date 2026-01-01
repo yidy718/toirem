@@ -46,24 +46,40 @@
 □ Child Tax Benefits
 □ Other (specify): _________________
 
-### SECTION 4: DECLARATION OF NEED
+### SECTION 4: PURPOSE OF ASSISTANCE
 
-□ **TIER 1 - EMERGENCY**: My household income is below $40,000 (family of 4) or proportional amount
+**Amount Requested:** $_______________
 
-□ **TIER 2 - STANDARD**: My household faces exceptional costs due to religious observance
+**Assistance needed for (check all that apply):**
+□ Rent/Housing         Amount: $_______
+□ Food/Groceries       Amount: $_______
+□ Utilities            Amount: $_______
+□ Medical expenses     Amount: $_______
+□ Education            Amount: $_______
+□ Other (specify): _____________ Amount: $_______
 
-**Brief explanation of financial need:** (optional)
+**Brief description of how funds will be used:**
 _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
-### SECTION 5: DECLARATION AND CONSENT
+### SECTION 5: DECLARATION OF NEED
 
-I declare that:
+□ **I declare that I need financial assistance for my personal day-to-day needs**
+
+For amounts $5,000 and over, please attach:
+- Notice of Assessment (both spouses if applicable)
+- Budget worksheet
+
+### SECTION 6: ACKNOWLEDGMENT OF INTENDED USE
+
+I acknowledge and declare that:
+- **I will use the funds provided by Toirem Canada for the purpose(s) stated above**
 - All information provided is true and complete
+- I understand this is a charitable grant for poverty relief
 - I will notify Toirem Canada of any significant changes in my financial situation
 - I understand that false information may result in discontinuation of assistance
-- I consent to verification of information if required
+- I consent to follow-up contact if selected
 
 **Signature:** _______________________ **Date:** _____________
 
@@ -111,24 +127,40 @@ I declare that:
 □ Prestations fiscales pour enfants
 □ Autre (préciser): _________________
 
-### SECTION 4: DÉCLARATION DE BESOIN
+### SECTION 4: OBJET DE L'AIDE
 
-□ **NIVEAU 1 - URGENCE**: Le revenu de mon ménage est inférieur à 40 000$ (famille de 4) ou montant proportionnel
+**Montant demandé:** $_______________
 
-□ **NIVEAU 2 - STANDARD**: Mon ménage fait face à des coûts exceptionnels dus à l'observance religieuse
+**Aide nécessaire pour (cochez toutes les cases applicables):**
+□ Loyer/Logement       Montant: $_______
+□ Nourriture/Épicerie  Montant: $_______
+□ Services publics     Montant: $_______
+□ Frais médicaux       Montant: $_______
+□ Éducation            Montant: $_______
+□ Autre (préciser): _____________ Montant: $_______
 
-**Brève explication du besoin financier:** (optionnel)
+**Brève description de l'utilisation des fonds:**
 _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
-### SECTION 5: DÉCLARATION ET CONSENTEMENT
+### SECTION 5: DÉCLARATION DE BESOIN
 
-Je déclare que:
+□ **Je déclare avoir besoin d'aide financière pour mes besoins quotidiens personnels**
+
+Pour les montants de 5 000$ et plus, veuillez joindre:
+- Avis de cotisation (les deux conjoints le cas échéant)
+- Feuille de budget
+
+### SECTION 6: RECONNAISSANCE DE L'UTILISATION PRÉVUE
+
+Je reconnais et déclare que:
+- **J'utiliserai les fonds fournis par Toirem Canada pour le(s) but(s) indiqué(s) ci-dessus**
 - Tous les renseignements fournis sont vrais et complets
+- Je comprends qu'il s'agit d'une aide charitable pour le soulagement de la pauvreté
 - J'informerai Toirem Canada de tout changement important dans ma situation financière
 - Je comprends que de fausses informations peuvent entraîner l'arrêt de l'aide
-- Je consens à la vérification des informations si nécessaire
+- Je consens à un suivi si sélectionné
 
 **Signature:** _______________________ **Date:** _____________
 
@@ -176,24 +208,40 @@ Je déclare que:
 □ קינדער שטייער בענעפיטן
 □ אנדערע (ספעציפיצירן): _________________
 
-### אפטיילונג 4: דעקלאראציע פון נויט
+### אפטיילונג 4: צוועק פון הילף
 
-□ **שטאפל 1 - עמערדזשענסי**: מיין הויזגעזינד איינקונפט איז אונטער $40,000 (משפחה פון 4) אדער פראפארציאנאלע סומע
+**סומע געבעטן:** $_______________
 
-□ **שטאפל 2 - סטאנדארד**: מיין הויזגעזינד האט אויסערגעווענליכע קאסטן צוליב רעליגיעזע אפהיטונג
+**הילף געדארפט פאר (מארקירט אלע וואס פאסט):**
+□ רענט/וואוינונג      סומע: $_______
+□ עסן/גראסעריס       סומע: $_______
+□ יוטיליטיס          סומע: $_______
+□ מעדיצינישע אויסגאבן סומע: $_______
+□ חינוך              סומע: $_______
+□ אנדערע (ספעציפיצירן): _____________ סומע: $_______
 
-**קורצע ערקלערונג פון פינאנציעלע נויט:** (אפציאנאל)
+**קורצע באשרייבונג ווי די געלטער וועלן גענוצט ווערן:**
 _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
-### אפטיילונג 5: דעקלאראציע און צושטימונג
+### אפטיילונג 5: דעקלאראציע פון נויט
 
-איך דעקלאריר אז:
+□ **איך דעקלארירט אז איך דארף פינאנציעלע הילף פאר מיינע פערזענליכע טאג-טעגליכע געברויכן**
+
+פאר סומעס $5,000 און מער, ביטע צולייגן:
+- נאטיס פון אסעסמענט (ביידע מאן און פרוי אויב שייך)
+- בודזשעט ארבעטס-בלאט
+
+### אפטיילונג 6: אנערקענונג פון באנוץ
+
+איך אנערקען און דעקלאריר אז:
+- **איך וועל נוצן די געלטער צוגעשטעלט דורך טוירעם קאנאדא פאר די צוועק(ן) דערמאנט אויבן**
 - אלע אינפארמאציע צוגעשטעלט איז אמת און פולשטענדיק
+- איך פארשטיי דאס איז א צדקה גרענט פאר ארעמקייט רעליף
 - איך וועל מודיע זיין טוירעם קאנאדא פון סיי וועלכע וויכטיקע ענדערונגען אין מיין פינאנציעלע מצב
 - איך פארשטיי אז פאלשע אינפארמאציע קען פירן צו אפשטעלן די הילף
-- איך שטים צו צו וועריפיקאציע פון אינפארמאציע אויב נויטיק
+- איך שטים צו צו פאלג-אויף קאנטאקט אויב אויסגעוויילט
 
 **חתימה:** _______________________ **דאטום:** _____________
 

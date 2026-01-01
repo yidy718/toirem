@@ -11,7 +11,7 @@
 3. ✅ Fixed research document numbering (1-9, no duplicates)
 4. ✅ Moved all relevant documents to appropriate tiers
 5. ✅ Removed duplicate files from Documentation folder
-6. ✅ Consolidated PDFs into TIER_3_EVIDENCE/PDFs
+6. ✅ Removed redundant PDFs (markdown files are source of truth)
 7. ✅ Cleaned up old folder structure
 8. ✅ Added missing Registration and Authority document to TIER 1
 
@@ -54,7 +54,6 @@ TOIREM CANADA COMPLIANCE PACKAGE
 │   │   ├── 7_Montreal_Hasidic_Demographics_2025.md
 │   │   ├── 8_Hasidic_Family_Cost_of_Living_Research_2025.md
 │   │   └── 9_Jewish_Education_Costs_2025.md ⭐ RENUMBERED
-│   └── PDFs/ (6 PDF versions) ⭐ MOVED
 │
 ├── TIER 4: OPERATIONS (Staff Use) ✅ COMPLETE
 │   ├── Application_Form_Trilingual.md ⭐ NEW
@@ -85,11 +84,11 @@ TOIREM CANADA COMPLIANCE PACKAGE
 |------|-------|--------|
 | TIER 1: Governance | 7 files (5 .md, 2 .pdf) | ✅ Complete |
 | TIER 2: Policy | 6 files (all .md) | ✅ Complete |
-| TIER 3: Evidence | 20 files (14 .md, 6 .pdf) | ✅ Complete |
+| TIER 3: Evidence | 14 files (all .md) | ✅ Complete |
 | TIER 4: Operations | 6 files (all .md) | ✅ Complete |
 | TIER 5: Tracking | 4 files (all .md) | ✅ Complete |
 | TIER 6: Resources | 4 files (2 .md, 2 .css) | ✅ Complete |
-| **TOTAL** | **47 files** | **✅ Ready** |
+| **TOTAL** | **41 files** | **✅ Ready** |
 
 ---
 
@@ -108,7 +107,6 @@ TOIREM CANADA COMPLIANCE PACKAGE
 5. CRA_Compliance_Research_With_Sources.md → TIER 3
 6. Hasidic_Family_Living_Costs_Montreal_2025.md → TIER 3
 7. london_orthodox_costs_comparison.md → TIER 3
-8. All PDFs → TIER_3_EVIDENCE/PDFs/
 
 ### Files Renamed/Renumbered:
 1. 1_Quebec_Poverty_Line_2025.md → 1_Quebec_Cost_of_Living_Analysis_2025.md
@@ -116,7 +114,7 @@ TOIREM CANADA COMPLIANCE PACKAGE
 
 ### Cleanup Performed:
 - ❌ Removed entire Documentation/ folder (all duplicates)
-- ❌ Removed empty PDFs/ folder (moved to TIER 3)
+- ❌ Removed PDFs/ folder (Dec 31 - outdated duplicates of markdown)
 - ❌ Removed SOURCE/ folder (contents moved to TIER 6)
 - ✅ Created TIER 6 for resources and support files
 - ✅ Organized all CSS and documentation files in TIER 6
@@ -143,7 +141,6 @@ TOIREM CANADA COMPLIANCE PACKAGE
 - [x] 9 comprehensive research documents
 - [x] CRA compliance research
 - [x] International comparisons
-- [x] PDF versions for presentations
 
 ### TIER 4: OPERATIONS ✅
 - [x] Trilingual application form
