@@ -1,5 +1,6 @@
 {
   "buildCommand": "node -e \"var fs=require('fs');var c=fs.readFileSync('passcode.js','utf8');c=c.replace('__TOIREM_PASSCODE__',process.env.TOIREM_PASSCODE||'TOIREM2025');fs.writeFileSync('passcode.js',c);\"",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
